@@ -5,5 +5,9 @@ import (
 )
 
 func main() {
+	SayHello()
+}
+
+func SayHello() {
 	greet.Greet()
 }
