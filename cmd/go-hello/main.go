@@ -1,13 +1,7 @@
 package main
 
-import (
-	"github.com/guilhermehbueno/go-hello/internal/greet"
-)
+import "github.com/guilhermehbueno/go-hello/api"
 
 func main() {
-	SayHello()
-}
-
-func SayHello() {
-	greet.Greet()
+	api.SayHello()
 }
